@@ -1,0 +1,30 @@
+.dropdown {
+    position: relative;
+    user-select: none;
+    width: 20vh;
+}
+
+.dropdown .dropdrown-btn {
+    padding: 5px;
+    box-shadow: 1px 1px 2px 1px;
+    background: #fff;
+    cursor: pointer;
+
+}
+.dropdown-item{
+    position: relative;
+    box-shadow: 1px 1px 2px 1px;
+    background: #fff;
+    padding: 5px;
+    transition: all 0.2s;
+}
+.dropdown .dropdown-content :hover {
+    padding: 10px;
+    cursor: pointer;
+    background: #fcfcfc;
+}
+.dropdown-content {
+    position: absolute;
+    width: inherit;
+    z-index: 1;
+}

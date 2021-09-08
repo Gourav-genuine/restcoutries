@@ -1,0 +1,24 @@
+.headerDark {
+    padding: 2vh;
+    
+    display: flex;
+    justify-content: space-between;
+    background-color: rgb(23, 65, 105);
+    color: white;
+    
+}
+.headerLight {
+    padding: 2vh;
+    display: flex;
+    justify-content: space-between;
+    background-color: white;
+    color: black;
+    border-bottom: 1px solid rgb(185, 183, 183);
+}
+#mode {
+    cursor: pointer;
+}
+.card{
+    background-color: rgb(23, 65, 105);
+    color: white;
+}

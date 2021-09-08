@@ -1,0 +1,25 @@
+.imageDiv {
+    
+}
+#allFlags {
+    height: 10rem;
+    width: 15rem;
+
+}
+.tile {
+    position: relative;
+    height: 100%;
+    border-radius: 10px;
+    cursor: pointer;
+    -webkit-transition: 0.2s all;
+    overflow: hidden;
+  
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    align-items: center;
+    /* added later */
+    
+    
+  }
+  

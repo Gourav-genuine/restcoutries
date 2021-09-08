@@ -1,0 +1,11 @@
+.details {
+  font-weight: 600;
+}
+@media only screen and (min-device-width: 768px) {
+  .secondDetCol {
+    margin-left: 7vh;
+  }
+}
+#button {
+    border: rgb(197, 197, 197) solid 2px;
+}
